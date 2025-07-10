@@ -13,6 +13,9 @@ npm i
 npm run dev
 ```
 
+
+The API data from [https://github.com/marckuz/TEG-Events-Manager-Test](https://teg-coding-challenge.s3.ap-southeast-2.amazonaws.com/events/event-data.json) even though the file is public, Amazon S3 blocks cross-origin browser-based requests unless CORS rules are configured on the bucket to allow them. I've decided to download the file instead and fetch that locally. 
+
 ## What technologies are used for this project?
 
 This project is built with:
